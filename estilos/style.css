@@ -59,4 +59,41 @@ nav#menu a:hover{
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
+main{
+  
+}
+section#ficha{
+  background-color: var(--fundo-card);
+  padding: 20px;
+  border-radius: 8px;
+}
 
+section#ficha img.foto{
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 5px var(--fundo-card);
+  outline: solid 5px var(--destaque);
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+section#ficha h1{
+  color: var(--destaque);
+  margin: 15px ;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+
+div#social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  gap: 15px;
+  margin-top: 15px;
+}
